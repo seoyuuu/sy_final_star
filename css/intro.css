@@ -1,0 +1,399 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#wrap {
+    position: relative;
+    width: 100%;
+}
+#container {
+    width: 100%;
+    overflow: hidden;
+}
+.sub_title {
+    width: 100%;
+    height: 98px;
+    background: #ffffff;
+}
+.sub_title .sub_title_inner {
+    width: 1100px;
+    height: 91px;
+    margin: 0 auto;
+    position: relative;
+}
+.sub_title_inner h2 {
+    color: #222222;
+    padding-top: 30px;
+    position: relative;
+}
+
+.intro_main {
+    background: url(../img/intro/intro_main.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 23vw;
+    position: relative;
+    overflow: hidden;
+}
+/******************************/
+.intro_drink {
+    background: url(../img/intro/intro_drink.jpg) 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.intro_drink_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.web_drink {
+    display: block;
+    width: 35%;
+    position: absolute;
+    left: 760px;
+    top: 115px;
+}
+.m_drink {
+    display: none;
+}
+.intro_drink_btn {
+    width: 121px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 760px;
+    top: 280px;
+}
+.intro_drink_btn a {
+    color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.intro_drink_btn a:hover {
+    background: #ffffff;
+    color: #000;
+}
+/******************************/
+.intro_food {
+    background: url(../img/intro/intro_food.jpg) 80% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.intro_food_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.web_food {
+    display: block;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    top: 127px;
+}
+.m_food {
+    display: none;
+}
+.intro_food_btn {
+    width: 121px;
+    border: 2px solid #222;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 0;
+    top: 262px;
+}
+.intro_food_btn a {
+    color: #222;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.intro_food_btn a:hover {
+    background: #222;
+    color: #ffffff;
+}
+/******************************/
+.intro_cup {
+    background: url(../img/intro/intro_cup.jpg) 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.intro_cup_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.web_cup {
+    display: block;
+    width: 31%;
+    position: absolute;
+    left: 760px;
+    top: 125px;
+}
+.m_cup {
+    display: none;
+}
+.intro_cup_btn {
+    width: 121px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 760px;
+    top: 262px;
+}
+.intro_cup_btn a {
+    color: #ffffff;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.intro_cup_btn a:hover {
+    background: #ffffff;
+    color: #000;
+}
+/******************************/
+.intro_card {
+    background: url(../img/intro/intro_card.jpg) 80% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.intro_card_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.web_card {
+    display: block;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+.m_card {
+    display: none;
+}
+.intro_card_btn {
+    width: 121px;
+    border: 2px solid #222;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 0;
+    top: 278px;
+}
+.intro_card_btn a {
+    color: #222;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.intro_card_btn a:hover {
+    background: #222;
+    color: #ffffff;
+}
+/******************************/
+.intro_story {
+    background: url(../img/intro/intro_story.jpg) 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 430px;
+}
+.intro_story_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.web_story {
+    display: block;
+    width: 35%;
+    position: absolute;
+    left: 760px;
+    top: 115px;
+}
+.m_story {
+    display: none;
+}
+.intro_story_btn {
+    width: 121px;
+    border: 2px solid #222;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 760px;
+    top: 278px;
+}
+.intro_story_btn a {
+    color: #222;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.intro_story_btn a:hover {
+    background: #222;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 960px) {
+    .sub_title_inner h2 {
+        padding-top: 55px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .intro_main {
+        background: url(../img/intro/m_intro_main.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 137vw;
+        position: relative;
+        overflow: hidden;
+    }
+    .intro_drink {
+        background: url(../img/intro/m_intro_drink.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 167vw;
+    }
+    .intro_drink_inner {
+        width: 100%;
+    }
+    .web_drink {
+        display: none;
+    }
+    .m_drink {
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 130px;
+        margin-left: -150px;
+    }
+    .intro_drink_btn {
+        left: 50%;
+        margin-left: -60.5px;
+        top: 290px;
+    }
+/**********************************/
+    .intro_food {
+        background: url(../img/intro/m_intro_food.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 167vw;
+    }
+    .intro_food_inner {
+        width: 100%;
+    }
+    .web_food {
+        display: none;
+    }
+    .m_food {
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 130px;
+        margin-left: -150px;
+    }
+    .intro_food_btn {
+        left: 50%;
+        margin-left: -60.5px;
+        top: 300px;
+    }
+/**********************************/
+    .intro_cup {
+        background: url(../img/intro/m_intro_cup.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 167vw;
+    }
+    .intro_cup_inner {
+        width: 100%;
+    }
+    .web_cup {
+        display: none;
+    }
+    .m_cup {
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 130px;
+        margin-left: -150px;
+    }
+    .intro_cup_btn {
+        left: 50%;
+        margin-left: -60.5px;
+        top: 290px;
+    }
+/**********************************/
+    .intro_card {
+        background: url(../img/intro/m_intro_card.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 167vw;
+    }
+    .intro_card_inner {
+        width: 100%;
+    }
+    .web_card {
+        display: none;
+    }
+    .m_card {
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 130px;
+        margin-left: -150px;
+    }
+    .intro_card_btn {
+        left: 50%;
+        margin-left: -60.5px;
+        top: 290px;
+    }
+/**********************************/
+    .intro_story {
+        background: url(../img/intro/m_intro_story.jpg) no-repeat center / cover;
+        width: 100%;
+        height: 167vw;
+    }
+    .intro_story_inner {
+        width: 100%;
+    }
+    .web_story {
+        display: none;
+    }
+    .m_story {
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 50%;
+        top: 130px;
+        margin-left: -150px;
+    }
+    .intro_story_btn {
+        left: 50%;
+        margin-left: -60.5px;
+        top: 290px;
+    }
+}
